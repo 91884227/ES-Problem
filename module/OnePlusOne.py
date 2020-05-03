@@ -43,7 +43,7 @@ class class_OnePlusOne:
             self.selection()
         self.result = self.Parent
         self.result_fit = self.fit_func(self.Parent)
-        self.time = i
+        self.time = i+1
 
 
 # In[3]:
