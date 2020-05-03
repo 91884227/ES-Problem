@@ -36,7 +36,7 @@ class class_OnePlusOne:
             self.Parent = self.Child
         
     def Minimization(self):
-        for i in tqdm(range(self.iteration)):
+        for i in range(self.iteration):
             if( self.fit_func(self.Parent) < 0.005):
                 break
             self.mutation()
